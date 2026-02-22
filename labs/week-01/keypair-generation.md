@@ -47,13 +47,13 @@ Explain the risk in terms of:
 ## Observations
 Document three observations from this lab.
 
-**Observation 1**
+### Observation 1
 <!-- What did you notice about key generation? -->
 
-**Observation 2**
+### Observation 2
 <!-- What did you notice about key size or format? -->
 
-**Observation 3**
+### Observation 3
 <!-- What did you notice about how the keys differ? -->
 
 ---
