@@ -1,6 +1,6 @@
 # Week 01 Lab — Key Pair Generation
 
-## Screenshot Evidence**
+## Screenshot Evidence
 
 If using OpenSSL:
 1. Capture a screenshot showing:
