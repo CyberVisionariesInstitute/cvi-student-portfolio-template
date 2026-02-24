@@ -10,7 +10,7 @@ This is my working portfolio — not the curriculum repository.
 All instructional materials live in the CVI curriculum repo.
 All work artifacts live here.
 
-## Repository Purpose
+## 1. Repository Purpose
 
 This repository serves as:
 1. A structured lab documentation workspace
@@ -20,7 +20,7 @@ This repository serves as:
 
 Everything committed here should reflect professional standards.
 
-## Repository Structure
+## 2. Repository Structure
 - `labs/` — weekly lab documentation and outputs
 - `notes/` — weekly key concepts in my own words
 - `reflections/` — weekly reflection responses
@@ -30,7 +30,7 @@ Everything committed here should reflect professional standards.
 Each folder has a specific purpose.
 Do not mix content types across directories.
 
-## Embedding Screenshots (Use Relative Paths Only)
+## 3. Embedding Screenshots (Use Relative Paths Only)
 When documenting labs, you will often include screenshots of terminal output, certificate details, or command results.
 
 Follow this standard:
@@ -72,7 +72,7 @@ Using relative paths ensures:
 If your image does not render, your path is incorrect.
 Debug the path before submitting.
 
-## Weekly Workflow
+## 4. Weekly Workflow
 Each week follows this structure:
 1. Review lesson notes and lab instructions from the CVI curriculum repository
 2. Complete the lab exercises
@@ -81,7 +81,7 @@ Each week follows this structure:
 5. Submit reflections in `reflections/`
 6. Commit changes with a clear, professional message
 
-## Document Standards
+## 5. Document Standards
 
 All entries should demonstrate:
 1. Clear technical reasoning
