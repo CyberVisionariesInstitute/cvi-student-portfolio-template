@@ -30,6 +30,48 @@ Everything committed here should reflect professional standards.
 Each folder has a specific purpose.
 Do not mix content types across directories.
 
+## Embedding Screenshots (Use Relative Paths Only)
+When documenting labs, you will often include screenshots of terminal output, certificate details, or command results.
+
+Follow this standard:
+
+### Step 1 — Store Screenshots Properly
+All screenshots must be stored in:
+
+#### assets/screenshots/week-01/
+
+(Adjust the week number accordingly.)
+Do not store screenshots in the root directory.
+
+### Step 2 — Embed Using a Relative Path
+When embedding an image inside a Markdown file (for example inside labs/week-01/key-pair-generation.md), use a relative path.
+
+Example:
+
+![Key Pair Output](../../assets/screenshots/week-01/keypair-output.png)
+
+Explanation:
+- .. moves up one folder level
+- From labs/week-01/ you move up twice to reach the repository root
+- Then navigate into assets/screenshots/week-01/
+
+#### This is called a relative file path.
+
+### ❌ Do NOT Use:
+Absolute file paths from your computer
+- (C:\Users\YourName\Desktop\image.png)
+- Drag-and-drop links that reference your local machine
+- Public URL links unless explicitly instructed
+
+### Why Relative Paths Matter
+Using relative paths ensures:
+- Your repository renders correctly for others
+- Reviewers can view images without errors
+- Your documentation follows professional Git standards
+
+If your image does not render, your path is incorrect.
+Debug the path before submitting.
+
 ## Weekly Workflow
 Each week follows this structure:
 1. Review lesson notes and lab instructions from the CVI curriculum repository
